@@ -1,6 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import CreateQuestionButton from './CreateQuestionButton/CreateQuestionButton';
 import QuestionInfo from './QuestionInfo/QuestionInfo';
+import QuestionInfoModel from '../../../model/QuestionInfo';
 
 const Questions = (props) => (
   <div>
@@ -10,5 +12,9 @@ const Questions = (props) => (
     })}
   </div>
 );
+
+Questions.propTypes = {
+  questions: PropTypes.arrayOf(PropTypes.instanceOf(QuestionInfoModel))
+}
 
 export default Questions;
