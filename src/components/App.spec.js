@@ -3,7 +3,9 @@ import { expect } from 'chai';
 import React from 'react';
 import App from './App';
 
-it('renders without crashing', () => {
-  const app = shallow(<App />);
-  expect(app.length).to.equal(1);
+describe('App', () => {
+  it('renders without crashing', () => {
+    const app = shallow(<App />);
+    expect(app.length).to.equal(1);
+  });
 });

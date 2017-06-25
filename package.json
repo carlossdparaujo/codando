@@ -4,7 +4,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "NODE_ENV=test babel-node scripts/test.js --env=jsdom --presets es2015"
+    "test": "NODE_ENV=test babel-node scripts/test.js --env=jsdom --presets es2015",
+    "test:functional": "./scripts/functional-tests.sh"
   },
   "dependencies": {
     "react": "^15.6.1",
