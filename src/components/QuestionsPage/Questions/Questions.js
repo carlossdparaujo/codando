@@ -6,7 +6,7 @@ const Questions = (props) => (
   <div>
     <CreateQuestionButton />
     {props.questions.map((questionInfo) => {
-      return <QuestionInfo key={`$questionInfo.id()`} info={questionInfo} />
+      return <QuestionInfo key={questionInfo.id} info={questionInfo} />
     })}
   </div>
 );

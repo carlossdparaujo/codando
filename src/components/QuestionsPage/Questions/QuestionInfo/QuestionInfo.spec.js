@@ -2,7 +2,7 @@ import { shallow } from 'enzyme';
 import { expect } from 'chai';
 import React from 'react';
 import QuestionInfo from './QuestionInfo';
-import QuestionInfoModel from '../../../model/QuestionInfo';
+import QuestionInfoModel from '../../../../model/QuestionInfo';
 
 describe('QuestionInfo', () => {
 
