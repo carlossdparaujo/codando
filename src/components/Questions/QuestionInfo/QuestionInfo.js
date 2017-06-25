@@ -1,7 +1,7 @@
 import React from 'react';
 
-const QuestionInfo = () => (
-  <div />
+const QuestionInfo = (props) => (
+  <p id="title">{props.info.title}</p>
 );
 
 export default QuestionInfo;

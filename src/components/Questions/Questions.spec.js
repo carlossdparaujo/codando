@@ -16,7 +16,7 @@ describe('Questions', () => {
   let questions;
 
   beforeEach(() => {
-    questions = shallow(<Questions questions={questionList}/>);
+    questions = shallow(<Questions questions={questionList} />);
   });
 
   it('renders without crashing', () => {
