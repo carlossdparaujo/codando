@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import QuestionInfoModel from '../../../../model/QuestionInfo';
+import QuestionInfoModel from './QuestionInfoModel';
 
 const QuestionInfo = (props) => (
   <p id="title">{props.info.title}</p>

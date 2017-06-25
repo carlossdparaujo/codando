@@ -1,11 +1,11 @@
 import React from 'react';
 import Questions from './Questions/Questions';
-import QuestionInfo from '../../model/QuestionInfo';
+import QuestionInfoModel from './Questions/QuestionInfo/QuestionInfoModel';
 
 const QuestionsPage = () => (
   <Questions questions={[
-    new QuestionInfo('hs7das6f7af', 'The hardest question ever'),
-    new QuestionInfo('48a4f84k8c8', 'The easiest question ever')
+    new QuestionInfoModel('hs7das6f7af', 'The hardest question ever'),
+    new QuestionInfoModel('48a4f84k8c8', 'The easiest question ever')
   ]}/>
 );
 

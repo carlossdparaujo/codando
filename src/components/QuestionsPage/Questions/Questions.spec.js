@@ -4,7 +4,7 @@ import React from 'react';
 import Questions from './Questions';
 import CreateQuestionButton from './CreateQuestionButton/CreateQuestionButton';
 import QuestionInfo from './QuestionInfo/QuestionInfo';
-import QuestionInfoModel from '../../../model/QuestionInfo';
+import QuestionInfoModel from './QuestionInfo/QuestionInfoModel';
 
 describe('Questions', () => {
 

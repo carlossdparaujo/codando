@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import CreateQuestionButton from './CreateQuestionButton/CreateQuestionButton';
 import QuestionInfo from './QuestionInfo/QuestionInfo';
-import QuestionInfoModel from '../../../model/QuestionInfo';
+import QuestionInfoModel from './QuestionInfo/QuestionInfoModel';
 
 const Questions = (props) => (
   <div>

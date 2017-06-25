@@ -1,4 +1,4 @@
-export default class QuestionInfo {
+export default class QuestionInfoModel {
   constructor(id, title) {
     this._id = id;
     this._title = title;
