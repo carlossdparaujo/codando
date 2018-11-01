@@ -19,8 +19,7 @@ jobs:
       - run: yarn build
       - persist_to_workspace:
           root: .
-          paths:
-            - build
+          paths: build
   deploy:
     docker:
       - image: garland/aws-cli-docker
@@ -43,8 +42,10 @@ workflows:
       - build:
           filters:
             branches:
-              only:
-                - feature/COD-0
+              only: master
       - deploy:
           requires:
             - build
+          filters:
+            branches:
+              only: master
